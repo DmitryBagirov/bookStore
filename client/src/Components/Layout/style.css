@@ -1,0 +1,50 @@
+.wrapper {
+    min-width: 1000px;
+    min-height: 500px;
+    width: 885px;
+    margin: 152px auto 0;
+    text-align: center;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.searchArea {
+    padding-right: 35px !important;
+    font-size:14px;
+    width: 200px !important;
+    height: 40px;
+}
+
+.searchForm {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.searchImg {
+    background-image: url("/public/assets/search.png");
+    outline: none;
+    width: 30px;
+    vertical-align: middle;
+    margin-left: -32px;
+    opacity: 0.4;
+}
+.searchImg:hover {
+    opacity: 1;
+}
+.searchImg:active {
+    opacity: 0.4;
+}
+
+.item {
+    padding: 5px 20px !important;
+    font-size: 18px !important;
+}
+
+.right {
+    margin-left: auto;
+}
+
+body {
+    background-color: #f2f2f2;
+}

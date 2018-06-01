@@ -1,0 +1,23 @@
+.loginForm {
+    text-align: left;
+    display: inline-block;
+}
+
+.loginForm input{
+    width: 200px !important;
+    height: 30px !important;
+}
+
+.loginRow  {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 450px;
+    text-align: left;
+}
+
+.congratulation {
+    font-size: 16px;
+}

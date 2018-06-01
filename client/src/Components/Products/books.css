@@ -1,0 +1,69 @@
+.description {
+    display: inline-block;
+    width: 195px;
+    vertical-align: top;
+    margin-left: 25px;
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.title:hover {
+    text-shadow: -1px -1px 6px rgba(0, 0, 0, 0.3);
+    transition: text-shadow 0.2s ease;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: inherit;
+    opacity: 0.99;
+}
+
+.author {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+}
+
+.bookPrice {
+
+}
+
+.red {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+td {
+    vertical-align: top;
+}
+
+.book {
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-right: 40px;
+    font-size: 14px;
+    width: 400px;
+    display: inline-block;
+}
+
+.cover {
+    display: inline-block;
+    width: 180px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,48 @@
+.bookimg {
+    width: 300px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+.bookDescription {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    width: auto;
+    text-align: left;
+}
+
+.bottom {
+    margin-top: 20px;
+    bottom: 0;
+}
+
+.bookTitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bookAuthor {
+    margin-top: 20px;
+}
+
+.dots {
+    font-weight: initial;
+    display: inline;
+}
+.descript {
+    overflow: hidden;
+    width: 190px;
+    height: 100px;
+    margin-top: -10px;
+    font-weight: initial;
+}
+
+.genre {
+    margin-top: 10px;
+}
+
+.descr {
+    max-width: 546px;
+    margin-top: 5px;
+}
+
