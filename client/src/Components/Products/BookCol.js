@@ -11,7 +11,7 @@ export default class BookCol extends React.Component {
 		return (
 			<td>
 				<div className="book">
-					<img className="cover" src={'http://localhost:9000/api/images/' + this.props.book.image} alt=""/>
+					<img className="cover" src={'http://superbookstore:8080/api/images/' + this.props.book.image} alt=""/>
 					<div className="description">
 						<a href={"books/" + this.props.book.id} onClick={e => this.onClick(e)}>
 							<div className="title">
