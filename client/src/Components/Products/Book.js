@@ -7,7 +7,7 @@ export default class Book extends React.Component {
 		if (book.length === 0) return "";
 		return (
 			<div style={{textAlign: "left"}} >
-				<img className="bookimg" src={"http://localhost:9000/api/images/" + book.image} alt="книга"/>
+				<img className="bookimg" src={"http://superbookstore:8080/api/images/" + book.image} alt="книга"/>
 				<div className="bookDescription">
 					<div className="bookTitle">
 						{book.title}
