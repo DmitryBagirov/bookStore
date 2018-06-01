@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 9000;
+const port = 8080;
 process.env.JWT_SECRET = "superMegaSecretPhrase";
 process.env.JWT_EXPIRE = 60*60*1000;
 
