@@ -23,7 +23,7 @@ function ensureAuthorized(req, res, next) {
 
 router.get('/', function (req, res) {
 	db.query('select * from book', function (err, result) {
-		res.send(JSON.stringify(result));
+		res.status(200).send(JSON.stringify(result));
 	});
 });
 
