@@ -1,7 +1,12 @@
 export const getAllBooks = (success) => {
-    fetch("/api/books")
-        .then(res => {
-            setTimeout(() => null, 0);
+    fetch("/api/books", {
+        method: 'get',
+        dataType: 'jsonp',
+        headers: {
+           'Accept': 'application/json',
+           'Content-Type': 'application/json'
+        }
+    }).then(res => {
             console.log(res);
             return res.json()
         }).then(books => {
