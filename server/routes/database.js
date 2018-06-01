@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 
 const db =  mysql.createConnection({
-	host: "localhost",
+	host: "superbookstore.ml",
 	user: "root",
-	password: "",
+	password: "Qweqweqwe123",
 	database: "book_store"
 });
 
