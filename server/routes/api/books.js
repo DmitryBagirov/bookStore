@@ -23,11 +23,12 @@ function ensureAuthorized(req, res, next) {
 
 router.get('/', function (req, res) {
 	db.query('select * from book', function (err, result) {
-		res.json(result);
+		res.send(result);
 	});
 });
 
-router.post('/:id', ensureAuthorized, function (req, res) {
+//router.post('/:id', ensureAuthorized, function (req, res) {
+router.post('/:id', function (req, res) {
 	if (isNaN(req.params.id )) {
 		res.json({error: 'Код книги должен быть числом'});
 		return;
